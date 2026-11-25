@@ -35,7 +35,7 @@ function resetUi() {
     label[key].classList.remove("error-message");
     results[key].textContent = "--";
   });
-  document.getElementById("inputs").textContent = ``;
+  document.getElementById("inputs").textContent = "";
 }
 
 function setError(key, message) {
