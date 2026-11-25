@@ -108,7 +108,7 @@ function ageCalc() {
 
   resetUi();
 
-  let isValid = errorCheck(
+  const isValid = errorCheck(
     Number(input.day.value),
     Number(input.month.value),
     Number(input.year.value),
