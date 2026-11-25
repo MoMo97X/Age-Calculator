@@ -83,7 +83,7 @@ img{
 
 input{
   width: 6rem;
-  padding: 1rem;
+  padding: clamp(1rem, 2vw, 1.25rem);
   font-size: 1.25rem;
   font-family: "popping-bold",Arial, Helvetica, sans-serif;
   border-radius: 0.5rem;
@@ -118,7 +118,7 @@ label{
 /* content */
 .age-calculator{
   height: 32.5rem;
-  padding: 1rem;
+  padding: clamp(1rem, 2vw, 1.25rem);
   border-radius: 1.5rem 1.5rem 7rem;
   background-color: var(--White);
   display: flex;
