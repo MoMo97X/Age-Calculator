@@ -20,6 +20,7 @@ npm-debug.log*
 
 # Testing
 /coverage
+/const_filed.js
 
 # Production
 /build
